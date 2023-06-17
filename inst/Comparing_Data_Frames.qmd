@@ -73,3 +73,9 @@ comparison1
 
 ```
 
+```{r}
+#| label: summary-comparison
+
+summary(comparison1)
+
+```
