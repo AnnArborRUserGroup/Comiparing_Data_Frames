@@ -58,8 +58,7 @@ Run the comparedf function:
 
 #| label: run-comparedf-function
 
-comparedf(df1, df2)
+comparison1 <- comparedf(df1, df2)
 
 
 ```
-
