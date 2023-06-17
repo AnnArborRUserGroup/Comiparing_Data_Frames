@@ -62,3 +62,14 @@ comparison1 <- comparedf(df1, df2)
 
 
 ```
+
+Print the comparedf object:
+
+
+```{r}
+#| label: print-comparison
+
+comparison1
+
+```
+
