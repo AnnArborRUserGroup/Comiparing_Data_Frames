@@ -27,8 +27,8 @@ library(quarto)
 
 
 ```
+Create two data frames, slightly different:
 
-You can add options to executable code like this
 
 ```{r}
 #| label: create-data-frames
@@ -50,4 +50,13 @@ df2 <- data.frame(id = paste0("person", 3:1),
 
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+
+```{r}
+
+#| label: run-comparedf-function
+
+comparedf(df1, df2)
+
+
+```
+
