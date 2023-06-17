@@ -8,7 +8,8 @@ editor: visual
 
 # This file uses the comparedf() function to compare two data frames:
 
-This function is in the package **arsenal**.
+This function is in the package **arsenal**.  The goal of this function is 
+to replicate the SAS PROC COMPARE.
 
 ```{r}
 #| label: load-packages
