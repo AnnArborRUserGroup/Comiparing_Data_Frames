@@ -24,7 +24,7 @@ library(janitor)
 library(vetr)
 library(knitr)
 library(quarto)
-
+library(compareDF)
 
 ```
 Create two data frames, slightly different:
