@@ -31,8 +31,23 @@ library(quarto)
 You can add options to executable code like this
 
 ```{r}
-#| echo: false
-2 * 2
+#| label: create-data-frames
+
+df1 <- data.frame(id = paste0("person", 1:3),
+                  a = c("a", "b", "c"),
+                  b = c(1, 3, 4),
+                  c = c("f", "e", "d"),
+                  row.names = paste0("rn", 1:3),
+                  stringsAsFactors = FALSE)
+df2 <- data.frame(id = paste0("person", 3:1),
+                  a = c("c", "b", "a"),
+                  b = c(1, 3, 4),
+                  d = paste0("rn", 1:3),
+                  row.names = paste0("rn", c(1,3,2)),
+                  stringsAsFactors = FALSE)
+
+
+
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
