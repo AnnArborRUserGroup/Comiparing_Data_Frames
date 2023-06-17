@@ -8,7 +8,7 @@ editor: visual
 
 # This file uses the comparedf() function to compare two data frames:
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+This function is in the package **arsenal**.
 
 ```{r}
 #| label: load-packages
