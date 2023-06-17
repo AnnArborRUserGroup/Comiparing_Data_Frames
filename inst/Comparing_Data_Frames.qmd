@@ -25,6 +25,8 @@ library(vetr)
 library(knitr)
 library(quarto)
 library(compareDF)
+library(arsenal)
+
 
 ```
 Create two data frames, slightly different:
